@@ -16,14 +16,14 @@ class _HomepageState extends State<Homepage> {
   }
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text("HOME PAGE"),),
+    return   Scaffold(
+      appBar: AppBar(title: const Text("HOME PAGE"),),
       body: Center(
         child: Text('${user!.email}'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: (()=>signout()),
-        child: Icon(Icons.login_rounded),
+        child: const Icon(Icons.login_rounded),
         ),
     );
   }
