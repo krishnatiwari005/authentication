@@ -6,7 +6,7 @@ buildscript {
     }
     dependencies {
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
-        classpath("com.google.gms:google-services:4.4.0")   // Firebase
+        classpath("com.google.gms:google-services:4.3.15")   // Firebase
     }
 }
 

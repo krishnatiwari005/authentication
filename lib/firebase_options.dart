@@ -40,7 +40,7 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static  FirebaseOptions web =(
+  static  FirebaseOptions web =FirebaseOptions(
     apiKey: 'AIzaSyC7N1_RaxGFErOtuilloh_EucV__WRjzLg',
     appId: '1:692631829930:web:3ff7f581ef62189735ffd3',
     messagingSenderId: '692631829930',
@@ -50,7 +50,7 @@ class DefaultFirebaseOptions {
     measurementId: 'G-LMLRGDE6YQ',
   );
 
-  static FirebaseOptions android =(
+  static FirebaseOptions android =FirebaseOptions(
     apiKey: 'AIzaSyCECDJgCW8yi5RqZH-3HRN5TdtMHy4kS68',
     appId: '1:692631829930:android:208c5de22211a2c535ffd3',
     messagingSenderId: '692631829930',
@@ -58,7 +58,7 @@ class DefaultFirebaseOptions {
     storageBucket: 'authentication-34ad4.firebasestorage.app',
   );
 
-  static  FirebaseOptions ios = (
+  static  FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyCz85HfCezQ85FLhNIeRw8M2toL8QfxnhI',
     appId: '1:692631829930:ios:2214e8ab54c13a0835ffd3',
     messagingSenderId: '692631829930',
@@ -67,7 +67,7 @@ class DefaultFirebaseOptions {
     iosBundleId: 'com.example.authtask',
   );
 
-  static FirebaseOptions macos = (
+  static FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyCz85HfCezQ85FLhNIeRw8M2toL8QfxnhI',
     appId: '1:692631829930:ios:2214e8ab54c13a0835ffd3',
     messagingSenderId: '692631829930',
@@ -76,7 +76,7 @@ class DefaultFirebaseOptions {
     iosBundleId: 'com.example.authtask',
   );
 
-  static FirebaseOptions windows = (
+  static FirebaseOptions windows =FirebaseOptions(
     apiKey: 'AIzaSyC7N1_RaxGFErOtuilloh_EucV__WRjzLg',
     appId: '1:692631829930:web:9fd8bb3f81d968b635ffd3',
     messagingSenderId: '692631829930',
