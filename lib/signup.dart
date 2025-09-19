@@ -38,7 +38,7 @@ class _SignupState extends State<Signup> {
               controller: password,
               decoration: const InputDecoration(hintText: 'ENTER PASSWORD' ),
             ),
-            ElevatedButton(onPressed:(()=Signup()), child: const Text("SIGN UP"))
+            ElevatedButton(onPressed:(()=>Signup()), child: const Text("SIGN UP"))
           ],
         ),
       )

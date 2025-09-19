@@ -53,11 +53,11 @@ class _LoginState extends State<Login> {
               controller: password,
               decoration: InputDecoration(hintText: 'ENTER PASSWORD' ),
             ),
-            ElevatedButton(onPressed:(()=signIn()), child: Text("LOGIN")),
+            ElevatedButton(onPressed:(()=>signIn()), child: Text("LOGIN")),
             SizedBox(height: 30,),
-             ElevatedButton(onPressed:(()=Get.to(Signup())), child: Text("REGISTER NOW")),
+             ElevatedButton(onPressed:(()=>Get.to(Signup())), child: Text("REGISTER NOW")),
              SizedBox(height: 30,),
-              ElevatedButton(onPressed:(()=Get.to(Forgot())), child: Text("FORGOT PASSWORD ?"))
+              ElevatedButton(onPressed:(()=>Get.to(Forgot())), child: Text("FORGOT PASSWORD ?"))
           ],
 
         ),

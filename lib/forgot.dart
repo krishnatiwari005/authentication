@@ -30,7 +30,7 @@ class _ForgotState extends State<Forgot> {
               decoration: const InputDecoration(hintText: 'ENTER EMAIL' ),
             ),
             
-            ElevatedButton(onPressed:(()=reset()), child: const Text("SEND LINK"))
+            ElevatedButton(onPressed:(()=>reset()), child: const Text("SEND LINK"))
           ],
         ),
       )
